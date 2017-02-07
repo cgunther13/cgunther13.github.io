@@ -34,4 +34,21 @@ h1:hover
 	font-size: 2em;
 }
 
+img {
+	width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20;
+    -webkit-transition: top 2s;
+    -moz-transition: top 2s;
+    -o-transition: top 2s;
+}
+
+img:hover {
+	top: 10px;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -o-transition: top 0.3s;
+}
+
 
