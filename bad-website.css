@@ -1,0 +1,37 @@
+body {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlj0lPJyhhYddeQGpx8cOTES-jBAPw3ME-f7lC9vsiOO2yVJyHxA');
+}
+
+#description {
+	text-align: center;
+	color: green;
+	font-size: 2em;
+}
+
+div {
+	border-width: 100px;
+	border-color: green;
+}
+
+h1 {
+	color: yellow;
+	font-size: 3em;
+	text-align: center;
+}
+
+ul {
+	color: white;
+	font-size: 1em;
+}
+
+h1:hover
+{
+    color : red;
+}
+
+#description:hover {
+	color: blue;
+	font-size: 2em;
+}
+
+
