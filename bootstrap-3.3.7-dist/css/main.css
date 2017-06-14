@@ -1,0 +1,114 @@
+/** {
+  border: 2px white solid;
+}*/
+
+body {
+  background: url("../../images/lionshead.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 0 70%;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 6em;
+  text-align: right;
+  margin: 0.3em;
+}
+
+h2 {
+  font-size: 6em;
+  text-align: left;
+  top: 0;
+  margin: 0.3em;
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  color: #fff;
+  font-size: 3em;
+  padding: 0;
+  margin: 0.5em 0.7em;
+  position: absolute;
+  bottom: 0;
+}
+
+  .menu li {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .menu li:hover {
+    font-size: 110%;
+  }
+
+.slide {
+  display: none;
+}
+
+.active-slide {
+  display: block;
+}
+
+.container {
+  display: inline-block;
+  height: 10em;
+  width: 60%;
+  margin: 0 2em;
+}
+
+.education, .work  {
+  display: inline-block;
+  float: left;
+  height: 20em;
+  width: 50%;
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.startups, .data, .other  {
+  display: inline-block;
+  float: left;
+  height: 20em;
+  width: 33.3%;
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.links {
+  margin: 0 auto;
+  top: 87%;
+  left: 77%;
+  position: absolute;
+}
+
+  .container h3, li {
+    font-family: 'Roboto', sans-serif;
+  }
+
+i {
+  color: white;
+  padding: 0.1em;
+}
+
+  i.fa.fa-linkedin-square:hover {
+    color: #007bb5; /*LinkedIn blue*/
+  }
+
+  i.fa.fa-facebook-square:hover {
+    color: #3b5998; /*Facebook blue*/
+  }
+
+  i.fa.fa-twitter-square:hover {
+    color: #55acee; /*Twitter blue*/
+  }
+
+  i.fa.fa-github-square:hover {
+    color: #000; /*Twitter blue*/
+  }
+
+  i:hover {
+    /*border: 1px white solid;*/
+    text-shadow: 1px 1px 1px #fff;
+  }
