@@ -28,29 +28,6 @@ h2 {
   cursor: pointer;
 }
 
-.menu {
-  list-style: none;
-  color: #fff;
-  font-size: 3em;
-  padding: 0;
-  margin: 0.5em 0.7em;
-  position: absolute;
-  bottom: 0;
-  cursor: pointer;
-}
-
-  .menu-tab {
-    display: none;
-  }
-
-  .menu li {
-    font-family: 'Playfair Display', sans-serif;
-  }
-
-  .menu li:hover {
-    font-size: 110%;
-  }
-
 .slide {
   display: none;
 }
@@ -65,6 +42,10 @@ h2 {
   width: 60%;
   margin: 0 2em;
 }
+
+  .container h3, li {
+    font-family: 'Raleway', sans-serif;
+  }
 
 .fa-ul {
   color: black;
@@ -86,42 +67,65 @@ h2 {
   border: 1px solid rgba(0,0,0,0);
 }
 
+.menu-tab {
+  display: none;
+}
+
+.menu {
+  list-style: none;
+  color: #fff;
+  font-size: 3em;
+  padding: 0;
+  margin: 0.5em 0.7em;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+  .menu li {
+    font-family: 'Playfair Display', sans-serif;
+  }
+
+  .menu li:hover {
+    font-size: 110%;
+  }
+
+.links-tab {
+  display: none;
+}
+
 .links {
-  margin: 0 auto;
-  left: 20%;
-  bottom: 50%;
+  margin: 0;
+  left: 79%;
+  bottom: 3%;
   position: absolute;
 }
 
-  .container h3, li {
-    font-family: 'Raleway', sans-serif;
+  .links i {
+    color: white;
+    padding: 0.1em;
   }
 
-.links i {
-  color: white;
-  padding: 0.1em;
-}
+    i.fa.fa-linkedin-square:hover {
+      color: #007bb5; /*LinkedIn blue*/
+    }
 
-  i.fa.fa-linkedin-square:hover {
-    color: #007bb5; /*LinkedIn blue*/
-  }
+    i.fa.fa-facebook-square:hover {
+      color: #3b5998; /*Facebook blue*/
+    }
 
-  i.fa.fa-facebook-square:hover {
-    color: #3b5998; /*Facebook blue*/
-  }
+    i.fa.fa-twitter-square:hover {
+      color: #55acee; /*Twitter blue*/
+    }
 
-  i.fa.fa-twitter-square:hover {
-    color: #55acee; /*Twitter blue*/
-  }
+    i.fa.fa-github-square:hover {
+      color: #000; /*Twitter blue*/
+    }
 
-  i.fa.fa-github-square:hover {
-    color: #000; /*Twitter blue*/
-  }
-
-  i:hover {
-    /*border: 1px white solid;*/
-    text-shadow: 1px 1px 1px #fff;
-  }
+    i:hover {
+      /*border: 1px white solid;*/
+      text-shadow: 1px 1px 1px #fff;
+    }
 
 a {
   color: inherit;
