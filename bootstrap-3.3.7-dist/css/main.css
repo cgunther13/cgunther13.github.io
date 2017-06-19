@@ -24,11 +24,8 @@ h2 {
   font-family: 'Raleway', sans-serif;
 }
 
-li {
-  list-style: none;
-}
-
 .menu {
+  list-style: none;
   color: #fff;
   font-size: 3em;
   padding: 0;
@@ -87,7 +84,7 @@ li {
     font-family: 'Roboto', sans-serif;
   }
 
-i {
+.links i {
   color: white;
   padding: 0.1em;
 }
