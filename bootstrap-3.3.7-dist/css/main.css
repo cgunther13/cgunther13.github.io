@@ -21,7 +21,11 @@ h2 {
   top: 0;
   margin: 0.3em;
   position: absolute;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.initials {
+  cursor: pointer;
 }
 
 .menu {
@@ -32,10 +36,15 @@ h2 {
   margin: 0.5em 0.7em;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
 }
 
+  .menu-tab {
+    display: none;
+  }
+
   .menu li {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
   }
 
   .menu li:hover {
@@ -57,6 +66,10 @@ h2 {
   margin: 0 2em;
 }
 
+.fa-ul {
+  color: black;
+}
+
 .education, .work  {
   display: inline-block;
   float: left;
@@ -75,13 +88,13 @@ h2 {
 
 .links {
   margin: 0 auto;
-  top: 87%;
-  left: 77%;
+  left: 20%;
+  bottom: 50%;
   position: absolute;
 }
 
   .container h3, li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
 .links i {
@@ -108,4 +121,13 @@ h2 {
   i:hover {
     /*border: 1px white solid;*/
     text-shadow: 1px 1px 1px #fff;
+  }
+
+a {
+  color: inherit;
+}
+
+  a:hover {
+    color: #0645AD;
+    text-decoration: underline;
   }
