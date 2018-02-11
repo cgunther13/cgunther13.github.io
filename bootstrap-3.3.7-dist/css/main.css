@@ -59,11 +59,18 @@ h2 {
   border: 1px solid rgba(0,0,0,0);
 }
 
-.startups, .data, .other  {
+.startups  {
   display: inline-block;
   float: left;
   height: 20em;
-  width: 33.3%;
+  width: 27%;
+  border: 1px solid rgba(0,0,0,0);
+}
+.data, .other  {
+  display: inline-block;
+  float: left;
+  height: 20em;
+  width: 36%;
   border: 1px solid rgba(0,0,0,0);
 }
 
